@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Hotel Booking</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <h1>Book a Room</h1>
+    <form action="/book_room" method="post">
+        <label for="room_id">Room ID:</label>
+        <input type="text" id="room_id" name="room_id"><br>
+        
+        <label for="guest_id">Guest ID:</label>
+        <input type="text" id="guest_id" name="guest_id"><br>
+        
+        <label for="checkin">Check-In Date:</label>
+        <input type="date" id="checkin" name="checkin"><br>
+        
+        <label for="checkout">Check-Out Date:</label>
+        <input type="date" id="checkout" name="checkout"><br>
+        
+        <button type="submit">Book Room</button>
+    </form>
+</body>
+</html>
