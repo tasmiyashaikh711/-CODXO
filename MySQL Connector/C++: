@@ -1,0 +1,22 @@
+Setting up the Project Structure:
+/hotel-management-system
+   /src
+      main.cpp
+      DatabaseConnector.cpp
+      Room.cpp
+      Booking.cpp
+      Guest.cpp
+   /include
+      DatabaseConnector.h
+      Room.h
+      Booking.h
+      Guest.h
+   /static
+      style.css
+   /templates
+      index.html
+      admin.html
+      bookings.html
+   /sql
+      schema.sql
+   Makefile
